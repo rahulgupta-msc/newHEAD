@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">head</string>
+    <string-array name="Disease">
+        <item>Dengue</item>
+        <item>Maleria</item>
+        <item>Typhoid</item>
+        <item>joindise</item>
+        <item>Chikunguniya</item>
+    </string-array>
+    <string-array name="Category">
+        <item>General</item>
+        <item>SemiDeluxe</item>
+        <item>SuperDeluxe</item>
+        <item>ICU</item>
+    </string-array>
+    <string-array name="Regtype">
+        <item>PATIENT</item>
+        <item>HOSPITAL</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>M</item>
+        <item>F</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="Bloodgroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="Lbd">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_activitiy">Map</string>
+
+</resources>
