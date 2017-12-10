@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.user.head.MainActivity">
+    tools:context="com.example.user.head.MainActivity"
+    android:background="@android:color/holo_blue_bright">
 
     <TextView
         android:text="AGE"
@@ -18,7 +19,8 @@
         android:layout_marginTop="13dp"
         android:id="@+id/textView9"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <TextView
         android:text="GENDER"
@@ -28,7 +30,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="14dp"
-        android:id="@+id/textView10" />
+        android:id="@+id/textView10"
+        android:textColor="@android:color/holo_red_dark" />
 
     <TextView
         android:text="CONTACT :"
@@ -38,7 +41,8 @@
         android:id="@+id/textView11"
         android:layout_below="@+id/spinner4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -88,7 +92,8 @@
         android:id="@+id/textView12"
         android:layout_below="@+id/editText7"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <TextView
         android:text="BLOOD GROUP :"
@@ -97,7 +102,8 @@
         android:id="@+id/textView13"
         android:layout_below="@+id/editText8"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <TextView
         android:text="PATIENT NAME: "
@@ -106,7 +112,8 @@
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -149,7 +156,8 @@
         android:id="@+id/textView14"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <TextView
         android:text="LOCATION"
@@ -160,7 +168,8 @@
         android:layout_alignRight="@+id/button10"
         android:layout_alignEnd="@+id/button10"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -193,7 +202,8 @@
         android:layout_alignBaseline="@+id/editText11"
         android:layout_alignBottom="@+id/editText11"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Button
         android:text="HOME"
@@ -202,7 +212,9 @@
         android:id="@+id/button14"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/arrow_up_float"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Button
         android:text="DELETE"
@@ -211,7 +223,9 @@
         android:id="@+id/button13"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/textView13"
-        android:layout_toEndOf="@+id/textView13" />
+        android:layout_toEndOf="@+id/textView13"
+        android:background="@android:drawable/ic_input_delete"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Button
         android:text="SUBMIT"
@@ -220,7 +234,9 @@
         android:id="@+id/button10"
         android:layout_above="@+id/button14"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/presence_away"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Button
         android:text="SEARCH"
@@ -229,7 +245,9 @@
         android:id="@+id/button11"
         android:layout_above="@+id/button13"
         android:layout_alignLeft="@+id/button13"
-        android:layout_alignStart="@+id/button13" />
+        android:layout_alignStart="@+id/button13"
+        android:background="@android:drawable/ic_menu_search"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -246,7 +264,8 @@
         android:id="@+id/textView18"
         android:layout_alignBottom="@+id/spinner6"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
 
     <Button
         android:text="UPDATE"
@@ -255,6 +274,8 @@
         android:id="@+id/button12"
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/button13"
-        android:layout_toEndOf="@+id/button13" />
+        android:layout_toEndOf="@+id/button13"
+        android:background="@android:drawable/ic_menu_edit"
+        android:textColor="@android:color/holo_red_dark" />
 
 </RelativeLayout>
